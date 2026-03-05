@@ -32,7 +32,7 @@ import { RouterOutlet, RouterLink } from '@angular/router';
         <a href="#" style="color: gold; text-decoration: none;">Facebook</a>
       </div>
       <p style="color:#888; font-size: 12px; margin: 0;">
-        © 2026 AR Signature Hospitality. All rights reserved.
+        © 2026 AR Signature Hospitality. All rights reserved. (Build: 2026-03-05-0845)
       </p>
     </footer>
   </div>
