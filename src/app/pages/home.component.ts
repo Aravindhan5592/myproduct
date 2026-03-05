@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   standalone: true,
+  imports: [RouterLink],
   template: `
   <section style="padding:100px 20px; text-align:center; background: linear-gradient(rgba(245, 242, 235, 0.9), rgba(245, 242, 235, 0.9)), url('assets/meal-box.png'); background-size: cover; background-position: center;">
     <h1 style="font-size:48px; color: #0b1c2d;">Elevating Corporate Gatherings</h1>
