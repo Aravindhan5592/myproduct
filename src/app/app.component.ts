@@ -6,14 +6,14 @@ import { RouterOutlet, RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet, RouterLink],
   template: `
-  <div style="font-family: 'Georgia', serif; color: #333;">
-    <header style="background:#0b1c2d; color:white; padding:15px 40px; display:flex; justify-content:space-between; align-items: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.3);">
-      <div style="cursor: pointer;" routerLink="/">
-        <h2 style="margin: 0; font-size: 24px;"><span style="color:gold;">AR</span> Signature Hospitality</h2>
+  <div style="font-family: 'Poppins', 'Georgia', serif; color: #333;">
+    <header style="background:#0b1c2d; color:white; padding:10px 40px; display:flex; justify-content:space-between; align-items: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.3);">
+      <div style="cursor: pointer; display: flex; align-items: center; gap: 10px;" routerLink="/">
+        <img src="assets/logo.png" alt="AR Signature Hospitality Logo" style="height: 60px;">
       </div>
       <nav style="display: flex; gap: 30px; align-items: center;">
         <a routerLink="/" style="color:white; text-decoration:none; font-weight: 500;">Home</a>
-        <a routerLink="/contact" style="color: gold; text-decoration:none; font-weight: bold; border: 1px solid gold; padding: 8px 15px; border-radius: 4px;">Get a Quote</a>
+        <a routerLink="/contact" style="color: gold; text-decoration:none; font-weight: bold; border: 1px solid gold; padding: 8px 15px; border-radius: 4px;">Quote</a>
       </nav>
     </header>
 
